@@ -1,0 +1,8 @@
+Date,Category,Product,Quantity,Sales,Outlier_Type
+2026-09-01,Electronics,Laptop,1,55000,High Outlier
+2026-09-11,Electronics,Monitor,1,18000,High Outlier
+2026-09-17,Electronics,Smartphone,1,22000,High Outlier
+2026-09-23,Electronics,Tablet,1,16000,High Outlier
+2026-09-26,Electronics,Camera,1,35000,High Outlier
+2026-09-29,Electronics,Premium TV,1,250000,High Outlier
+2026-09-30,Electronics,Server System,1,500000,High Outlier

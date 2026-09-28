@@ -1,0 +1,32 @@
+SIMPLE OUTLIER DETECTION - SHORT INTERPRETATION
+
+Dataset: Retail Sales
+Column checked: Sales
+
+Method used:
+I used the IQR (Interquartile Range) method.
+
+Q1 = 2425.00
+Q3 = 7375.00
+IQR = 4950.00
+Lower Bound = -5000.00
+Upper Bound = 14800.00
+
+Number of outliers found: 7
+
+Interpretation:
+The IQR method identified unusually high Sales values outside the calculated limits.
+The records are marked as High Outlier in the outlier table. These values should not
+be removed automatically. They should first be checked because a high value can be
+a genuine large sale rather than an error.
+
+For this sample dataset, the very high sales values are possible large retail orders.
+Therefore, I would investigate the original transaction details before deciding whether
+to remove, correct, or keep them.
+
+Interview questions:
+1. What is an outlier?
+An outlier is a value that is unusually high or low compared with most other values.
+
+2. Should every outlier be removed?
+No. An outlier should be investigated first. It may be a valid observation or a data error.
